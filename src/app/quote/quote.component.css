@@ -1,6 +1,8 @@
 .page{
     background-image:URL(https://www.lifeofpix.com/wp-content/uploads/2019/03/dsc1896-1-1600x1066.jpg);
-    color : rgba(0, 102, 255, 0.911);
+    background-size: cover;
+    background-attachment: fixed;
+    color : rgba(8, 5, 4, 0.993);
     font-size: 20px;
     font-family: Roboto;
     

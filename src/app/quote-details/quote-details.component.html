@@ -1,10 +1,10 @@
 <p>{{quote.description}}</p>
-<p>complete in {{quote.completeDate|dateCount}} days</p>
-<button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete quote </button>
-<button (click)="upVote()" style="float:left;" style="color:blue" class="votes"><i class="fas fa-thumbs-up" id="icon"></i>{{upvote}}</button>
+<button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete quote </button> 
 <br>
+<button (click)="upVote()" style="float:left;" style="color:blue" class="votes"><i class="fas fa-thumbs-up" id="icon"></i>{{upvote}}</button>
+
 <button (click)="downVote()" style="float:left;" style="color:red" class="votes"><i class="fas fa-thumbs-down" id="icons">{{downvote}}</i></button>
 
 <button class="votes"><i class="far fa-trash-alt"></i></button>
 
-<p>Quoted {{formDetails | dateCount}} days ago</p>
+<p>Quoted {{quote.completeDate | dateCount}} days ago</p>
