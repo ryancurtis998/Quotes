@@ -9,12 +9,12 @@ import {Quote} from '../quotes'
 
 export class QuoteComponent implements OnInit {
     quotes = [
-        new Quote(1,'Wesley','Find an online version and watch merlin find his son', new Date(2018,3,14)),
-        new Quote(2,'Terry','I have to buy cookies for the parrot', new Date(2018,4,14)),
-        new Quote(3, 'Nicholas','Diana has her birthday coming up soon', new Date(2018,5,14)),
-        new Quote(4, 'Ryan','Pupper likes expensive sancks', new Date(2018,6,14)),
-        new Quote(5, 'Johari','Damn Math', new Date(2018,7,14)),
-        new Quote(6, 'Teddy','Cause I am an evil overlord', new Date(2018,8,14)),
+        new Quote(1,'Wesley','My life is a message', new Date(2018,3,14)),
+        new Quote(2,'Terry','Broken crayons still colour', new Date(2018,4,14)),
+        new Quote(3, 'Nicholas','The wisest mind has something yet to learn', new Date(2018,5,14)),
+        new Quote(4, 'Ryan','You matter', new Date(2018,6,14)),
+        new Quote(5, 'Johari','Dream big pray bigger', new Date(2018,7,14)),
+        new Quote(6, 'Teddy','Fight till the last gasp', new Date(2018,8,14)),
 
     ]
 Quote(index){
